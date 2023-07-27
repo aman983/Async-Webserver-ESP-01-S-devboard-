@@ -8,9 +8,22 @@ This project demonstrates how to control relays using an [ESP 01 S devboard](htt
 - [ESP 01 S devboard](https://github.com/aman983/ESP-01S_Relay_Module)
 - Two-channel relay module
 
-## Circuit Diagram
+## Device and web GUI
+<h3 align="center">Ip address from Serial terminal</h3>
+<p align="center">
+  <img src="https://github.com/aman983/Async-Webserver-ESP-01-S-devboard-/blob/main/Assets/Terminal.png" height = 150 width = 400 >
+</p>
+<h3 align="center">GUI</h3>
+<p align="center">
+   Access the web server using the IP address shown in the Serial Monitor. The web page will display two toggle switches for each relay. You can toggle the switches to turn the relays on or off.</p>
+   <p align="center">
+      <img src="https://github.com/aman983/Async-Webserver-ESP-01-S-devboard-/blob/main/Assets/webserver.jpeg" height = 480 width = 222 >
+   </p>
+<h3 align="center">ESP 01 S Relay Development board</h3>
+<p align="center">
+  <img src="https://github.com/aman983/Async-Webserver-ESP-01-S-devboard-/blob/main/Assets/board.jpeg" height = 480 width = 347 >
+</p>
 
-Add a circuit diagram here if applicable.
 
 ## Getting Started
 
@@ -37,9 +50,8 @@ The code sets up an asynchronous web server on port 80, allowing you to access i
 - `setup()`: Initializes the output pins, connects to Wi-Fi, and starts the web server to serve the HTML page.
 - `loop()`: Empty loop as the server operates asynchronously.
 
-## Web Interface
 
-Access the web server using the IP address shown in the Serial Monitor. The web page will display two toggle switches for each relay. You can toggle the switches to turn the relays on or off.
+
 
 ## Author
 
